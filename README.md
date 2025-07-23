@@ -16,7 +16,7 @@ This project applies the **Black-Derman-Toy (BDT)** short-rate interest rate mod
 
 ---
 
-## 🔬 Part I – Building the Interest Rate Framework
+##  Part I – Building the Interest Rate Framework
 
 ###  1. Replicating the BDT Tree
 - Reproduced a 3-step BDT tree using `fminsearch` to calibrate short rates and volatility
@@ -57,7 +57,7 @@ This project applies the **Black-Derman-Toy (BDT)** short-rate interest rate mod
 - Without prepayment: duration decreases smoothly with rising rates
 - With prepayment: duration drops sharply at low rates due to early refinancing
 
-### 🔹 Convexity
+###  Convexity
 - Captures second-order sensitivity to rates
 - Non-prepayable MBS: positive convexity throughout
 - Prepayable MBS: **negative convexity** at low rates, flattening upside potential
